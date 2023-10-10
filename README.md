@@ -1,38 +1,36 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Getting Started
 
-## Creating a project
+1. Clone this repository to your local machine.
 
-If you're seeing this, you've probably already done this step. Congrats!
+2. Install project dependencies by running `npm install`.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+3. Start the development server with `npm run dev`.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+4. Access the app in your browser at `http://localhost:5000`.
 
-## Developing
+## Frontend Development
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- The frontend is built using Svelte and SvelteKit.
 
-```bash
-npm run dev
+- Each route in the `src/routes` directory corresponds to a specific page in your application.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- Modify and expand the Svelte components and pages as needed to meet your project requirements.
 
-## Building
+## Backend Integration
 
-To create a production version of your app:
+- Integrate the frontend with your backend APIs and services as required.
 
-```bash
-npm run build
-```
+## Deployment
 
-You can preview the production build with `npm run preview`.
+- Deploy the frontend to a web server or hosting platform of your choice.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## About Us
+
+Glitch Range was built by developers who loved playing attack/defense competitions and aim to provide an educational and training environment that encourages teams to build custom tooling.
+
+We believe that building better competitions will lead to a better internet.
