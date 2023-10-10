@@ -1,36 +1,36 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-1. Clone this repository to your local machine.
+First, run the development server:
 
-2. Install project dependencies by running `npm install`.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-3. Start the development server with `npm run dev`.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-4. Access the app in your browser at `http://localhost:5000`.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Frontend Development
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- The frontend is built using Svelte and SvelteKit.
+## Learn More
 
-- Each route in the `src/routes` directory corresponds to a specific page in your application.
+To learn more about Next.js, take a look at the following resources:
 
-- Modify and expand the Svelte components and pages as needed to meet your project requirements.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Backend Integration
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- Integrate the frontend with your backend APIs and services as required.
+## Deploy on Vercel
 
-## Deployment
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- Deploy the frontend to a web server or hosting platform of your choice.
-
-## License
-
-This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-## About Us
-
-Glitch Range was built by developers who loved playing attack/defense competitions and aim to provide an educational and training environment that encourages teams to build custom tooling.
-
-We believe that building better competitions will lead to a better internet.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
