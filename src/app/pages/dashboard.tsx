@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Header from './Header';
-import './globals.css';
+import Header from '../Header';
+import '../globals.css';
 
 export default function Dashboard() {
   return (
